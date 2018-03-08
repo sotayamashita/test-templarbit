@@ -1,0 +1,15 @@
+current directory: /Users/sotayamashita/Desktop/test-templarbit/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+/Users/sotayamashita/.rbenv/versions/2.3.6/bin/ruby -r ./siteconf20180307-40309-fordfu.rb extconf.rb
+creating Makefile
+
+current directory: /Users/sotayamashita/Desktop/test-templarbit/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/sotayamashita/Desktop/test-templarbit/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/sotayamashita/Desktop/test-templarbit/vendor/bundle/ruby/2.3.0/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 debug_inspector.bundle ./.gem.20180307-40309-2p4uh3

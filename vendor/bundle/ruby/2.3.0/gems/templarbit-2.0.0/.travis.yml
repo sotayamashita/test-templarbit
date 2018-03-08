@@ -1,0 +1,22 @@
+language: ruby
+
+rvm:
+- 2.2.9
+- 2.3.6
+- 2.4.3
+- 2.5.0 
+
+before_install:
+  - gem update --system
+
+script: bundle exec rake spec
+
+deploy:
+  provider: rubygems
+  gem: templarbit
+  api_key:
+    secure: "RQ+GydRm2+t+Ubqq6bK7QRbmXXvi91S3N+tnCSbc92UAWNCx6OvCJo/Ee0xayzZIyYNql2b5AkdC4oNWBVsQ0fX2RribNRpWc1hqYcVNqeuSlgb/oFptZfbu0+HUfC2i7IGnMtE/rYXg99uF5QRWlUHJZ7ewbQJ0W5heJpRQsiju1gluMR/wjUifS65sC9WCHV44D6g6N276Qm3pp38csAtBQ2WNmGgoiSAbVCqM6DRq5i4/vXocLt4IxOhfr4ZndJdRMZKt+Fr6zoibW+jysER+w9ZkWZJP1BUJAOCPxvakElOibfkGulhbEg6QlPlFqA9MwuoSqCgousaLZs8XGYh+nB3MGDybA/mifqdv8rN9aLlpLWtzQi9H6qLgNWS3U0Q7pjAEX9QfpmuXXKO8ErtyRC7g/GhOBlswfm6f/VViQ8atBLmWVBW3Xa5COsOGXahtxFtH0uMIoMdB4rYY/WppOMwR38KxZ8ctwHLLNb+iPXvh17eDfQIiVMLVkMJq4q/HQym1TsbFdQDMkx1A8iv4kCxCLr3m4A6J6V7eYvAoI89wYsBGZ8QE1xA3KxVBnbrnItmqmH+XE0ueCQpDO9KfA82NK4E5pad+ueBraIpQ1WmfFVT8Ny7YRvf5BlgvVNdlKd0Wt9bads18pmf7EX8Q5l8tZMOC0RrKhaqo16k="
+  on:
+    tags: true
+    repo: templarbit/templarbit-ruby
+    ruby: "2.4.3"

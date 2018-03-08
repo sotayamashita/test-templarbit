@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+
+gemspec
+
+group :development do
+  gem 'rake'
+  gem 'rack'
+  gem 'rack-test'
+  gem 'rspec'
+  gem 'rubocop'
+end

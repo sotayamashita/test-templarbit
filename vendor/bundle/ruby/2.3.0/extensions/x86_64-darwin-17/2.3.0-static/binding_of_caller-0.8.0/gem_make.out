@@ -1,0 +1,16 @@
+current directory: /Users/sotayamashita/Desktop/test-templarbit/vendor/bundle/ruby/2.3.0/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+/Users/sotayamashita/.rbenv/versions/2.3.6/bin/ruby -r ./siteconf20180307-40309-10c0b72.rb extconf.rb
+
+current directory: /Users/sotayamashita/Desktop/test-templarbit/vendor/bundle/ruby/2.3.0/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+current directory: /Users/sotayamashita/Desktop/test-templarbit/vendor/bundle/ruby/2.3.0/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+current directory: /Users/sotayamashita/Desktop/test-templarbit/vendor/bundle/ruby/2.3.0/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+make "DESTDIR=" install
+echo "Nada."
+Nada.
